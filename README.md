@@ -2,14 +2,14 @@
 
 HollowDB cluster is a middleman between the warp-contracts and the hollowdb clients which takes the burden of contract evaulation from the client and gives them to a dedicated server in order to catch web2 like performance.
 
-For more information about the cluster please check this [link](/hollow-db-grpc/docs/cluster.md).
+For more information about the cluster please check this [link](/HollowDB-grpc/docs/cluster.md).
 
 ## Setting up the Cluster
 
 Download the repo
 
 ```bash
-git clone https://github.com/firstbatchxyz/hollow-db-grpc.git
+git clone https://github.com/firstbatchxyz/HollowDB-grpc.git
 ```
 
 Edit the `hollow-server/utils/config.js` and give your contract txID and JWK.

@@ -2,7 +2,7 @@
   "name": "hollow-grpc",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "fco-fbatch <farukcan@firstbatch.xyz>",
+  "author": "FirstBatch Team <dev@firstbatch.xyz>",
   "license": "MIT",
   "dependencies": {
     "@bundlr-network/client": "^0.9.9",
