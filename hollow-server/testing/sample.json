@@ -1,0 +1,66 @@
+{
+  "personhood": 4,
+  "social_accounts": {
+    "Twitter": [
+      "Researcher",
+      "Web3.0 Citizen",
+      "Designer",
+      "Developer",
+      "Tech Guru",
+      "Web3 Builder",
+      "Business",
+      "Bookworm",
+      "Education Oriented"
+    ]
+  },
+  "interests": {
+    "Web3.0 Citizen": {
+      "Protocols": 0.3754352280956582,
+      "Polygon": 0.3705026455026455,
+      "DeFi": 0.33337315483332153,
+      "Ethereum": 0.2358531935399846,
+      "Avalanche": 0.22252640464565632,
+      "Blockchain Technology": 0.21338670327246237,
+      "Solana": 0.19950641038748565,
+      "Binance Chain": 0.1785003328203076,
+      "Metaverses": 0.16786264241585078,
+      "Dogecoin": 0.11153846153846154
+    },
+    "Business": {
+      "Invesment & VC's": 0.287755317177412,
+      "Entrepreneurship": 0.2570146962435988,
+      "Crypto Exchanges": 0.23829159047988768,
+      "Crypto Trading": 0.18128585764181415,
+      "Marketing & Ads": 0.16477732793522268
+    },
+    "Web3 Builder": {
+      "Smart Contracts": 0.2670277412718699,
+      "Zero-knowledge Technology": 0.2241660145430231,
+      "Infrastructure": 0.18103349520877116
+    },
+    "Developer": {
+      "Web Development": 0.24928260591488402,
+      "Devops": 0.16701036380518003,
+      "Machine Learning": 0.12557222721750183
+    },
+    "Researcher": {
+      "Engineering": 0.21657624832697178
+    },
+    "Tech Guru": {
+      "Artificial Intelligence": 0.14193138883617865,
+      "Distributed Systems": 0.11506254215077155
+    },
+    "Designer": {
+      "Product Design": 0.138417392498007,
+      "App Design": 0.12000174611489436,
+      "UX/UI Design": 0.11849572201850883
+    },
+    "Bookworm": {
+      "Self-Improvement": 0.11190715889398584
+    },
+    "Education Oriented": {
+      "Online Education": 0.11029863215204273
+    }
+  },
+  "last_update": "02/16/2023"
+}

@@ -1,0 +1,17 @@
+#OS junk files
+*.DS_Store
+
+#Node files
+node_modules/
+yarn-error.log
+
+#Project files
+dist/
+cache/
+/test/mock_users/
+.yalc/
+yalc.lock
+.secrets
+expand_cach
+
+undefined/

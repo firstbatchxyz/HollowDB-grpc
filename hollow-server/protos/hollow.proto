@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+import "google/protobuf/struct.proto";
+
+package hollowdb;
+
+service DB {
+  rpc write (WriteRequest) returns (WriteResponse) {}
+  rpc read (ReadRequest) returns (ReadResponse) {}
+}
+
+message WriteRequest {
+  string method = 1;
+  string key = 2;
+  google.protobuf.Struct data = 3;
+  google.protobuf.Struct proof = 4;
+}
+
+message WriteResponse {
+  string result = 1;
+}
+
+message ReadRequest {
+  string key = 1;
+}
+
+message ReadResponse {
+  string data = 1;
+}
+
