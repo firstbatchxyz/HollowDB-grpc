@@ -1,6 +1,6 @@
 # HollowDB gRPC Cluster
 
-HollowDB cluster is a middleman between the warp-contracts and the hollowdb clients which takes the burden of contract evaulation from the client and gives them to a dedicated server in order to catch web2 like performance.
+HollowDB cluster is a middleware between the warp-contracts and the hollowdb clients which takes the burden of contract evaulation from the client and gives them to a dedicated server in order to catch web2 like performance.
 
 For more information about the cluster please check this [link](/docs/cluster.md).
 
