@@ -10,7 +10,7 @@
     "@grpc/proto-loader": "^0.7.4",
     "google-proto-files": "^3.0.3",
     "grpc-js-health-check": "^1.0.2",
-    "hollowdb": "^0.1.6",
+    "hollowdb": "0.1.6",
     "warp-contracts": "1.2.52",
     "process": "^0.11.10",
     "redis": "^4.6.4"
