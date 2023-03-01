@@ -11,8 +11,8 @@ gRPC cluster uses bundlr under the hood to upload the client data to arweave. Th
 Below is the simplified flow of a "put" operation.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/bundlr_dark.svg" width="750">
-  <source media="(prefers-color-scheme: light)" srcset="../assets/bundlr_light.svg" width="750">
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/bundlr_dark.svg" width="60%">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/bundlr_light.svg" width="60%">
   <img alt="bundlr upload flow">
 </picture>
 
