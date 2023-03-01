@@ -34,6 +34,14 @@ After that use docker compose to start the cluster
 docker-compose up -d
 ```
 
+## Arweave Bundlr Usage
+
+In layman's terms, gRPC cluster uses bundlr-js to upload the user data to arweave and only store the receipt (transaction ID) in the contract.
+
+> :warning: In order to use bundlr-client you need to fund the bundlr node first.
+
+For more information about the bundlr you can check [our docs](./docs/bundlr.md) or the [official bundlr docs](https://docs.bundlr.network/overview).
+
 ## gRPC Client
 
 As for now there is no dedicated hollowdb client package. You can create your own gRPC client using example-client.
