@@ -38,11 +38,11 @@ services:
       - "9091"
     depends_on:
       - redis
-
   envoy:
     build: ./envoy
     ports:
       - "3000:8080"
+    platform: linux/amd64
     depends_on:
       - node-server1
       - node-server2
@@ -55,3 +55,17 @@ services:
       - node-server3
       - node-server4
       - node-server5
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor-arm64:v0.47.0
+    container_name: cadvisor
+    # userns_mode: "host"
+    # pid: "host"
+    # privileged: true
+    ports:
+      - 8080:8080
+    volumes:
+      - /:/rootfs:ro
+      # - /var/run:/var/run:rw
+      - /var/run/docker.sock:/var/run/docker.sock:rw # for macos
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
